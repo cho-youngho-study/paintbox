@@ -1,1 +1,26 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display+SC:ital@0;1&display=swap");
+
 @import "reset";
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Playfair Display SC", serif;
+  margin: 0 140px;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 155px;
+  nav {
+    display: flex;
+    justify-content: space-between;
+    ul {
+      display: flex;
+    }
+  }
+}
