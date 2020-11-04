@@ -1,4 +1,4 @@
-@mixin bigBackground($url) {
+@mixin oneBackground($url) {
   background: url($url) no-repeat;
   background-size: cover !important;
   height: 100vh;
@@ -13,9 +13,6 @@
     text-align: center;
     h3 {
       padding: 35px 0 60px 0;
-      span {
-        font-style: italic;
-      }
     }
     a {
       color: $white;
