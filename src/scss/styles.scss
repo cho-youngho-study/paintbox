@@ -84,6 +84,7 @@ header {
   padding-bottom: 80px;
   .studios__image {
     background: url("/images/flower.png") no-repeat;
+    background-size: 100%;
     flex: 1;
   }
   .studios__text {
@@ -110,6 +111,7 @@ header {
   }
   .shop--container {
     display: flex;
+    justify-content: space-between;
     margin-top: 40px;
     div {
       img {
@@ -118,6 +120,8 @@ header {
       .shop--sub__column {
         display: flex;
         flex-direction: column;
+        width: 250px;
+        margin: 0 auto;
         span {
           margin: 20px 0;
         }
@@ -134,4 +138,7 @@ header {
       }
     }
   }
+}
+.newest {
+  text-align: center;
 }
